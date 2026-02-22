@@ -3,7 +3,7 @@ services:
     name: job-portal-api
     env: node
     buildCommand: npm install
-    startCommand: node server/index.js
+    startCommand: npm start
     envVars:
       - key: MONGODB_URI
         sync: false
